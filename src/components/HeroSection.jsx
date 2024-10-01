@@ -7,6 +7,7 @@ function HeroSection() {
       data-scroll
       data-scroll-section
       data-scroll-speed="-0.3"
+      id="hero"
       className="container w-full"
     >
       <div className="textstructure py-[10vh]">
@@ -47,16 +48,18 @@ function HeroSection() {
             {item}
           </p>
         ))}
-        <div className="start flex items-center gap-4">
-          <div className="rounded-full border-[1px] font-NueueMontreal border-zinc-500 px-5 py-2 text-sm font-light whitespace-nowrap uppercase">
-            Connect with me
+        <a href="mailto:gurkaran1314@gmail.com">
+          <div className="hover:bg-white/10 start cursor-pointer flex items-center gap-4 rounded-full border-[1px] border-zinc-500">
+            <div className="font-NueueMontreal border-zinc-500 px-5 py-2 text-sm font-light whitespace-nowrap uppercase">
+              Connect with me
+            </div>
+            <div className="flex h-10 w-10 items-center justify-center rounded-full border-[1px] border-zinc-500">
+              <span className="rotate-45">
+                <FaArrowUpLong />
+              </span>
+            </div>
           </div>
-          <div className="flex h-10 w-10 items-center justify-center rounded-full border-[1px] border-zinc-500">
-            <span className="rotate-45">
-              <FaArrowUpLong />
-            </span>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );

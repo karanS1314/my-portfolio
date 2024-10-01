@@ -36,7 +36,7 @@ function Cards() {
               alt="IITR"
               className="w-[50%] mix-blend-lighten"
             />
-            <p className="text-sm text-center">B. Tech. (Chem. Eng.)</p>
+            <p className="text-sm text-center">B. Tech.</p>
             <p className="text-sm">CGPA : 8.3</p>
             <button className="absolute bottom-5 px-5 py-2 rounded-full border text-xs sm:text-base font-NueueMontreal border-zinc-200">
               2019–2023
