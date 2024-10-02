@@ -4,13 +4,13 @@ import { FaGithub } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 import profilePic from "../assets/images/gurkaran_pic.jpeg";
-
+import Marquee from "react-fast-marquee";
 function About() {
   return (
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="0.01"
+      data-scroll-speed="0.2"
       className="w-full bg-black rounded-t-3xl py-10 sm:py-20"
     >
       <div className="container w-full">
@@ -88,6 +88,78 @@ function About() {
             src={profilePic}
             alt="profile picture"
           />
+        </div>
+        <h1 className="text-4xl mt-8">Skills 🧠</h1>
+        <div className="relative w-full overflow-hidden">
+          <div className="absolute top-0 left-0 w-1/6 h-full bg-gradient-to-r from-black to-transparent z-10"></div>
+          <div className="absolute top-0 right-0 w-1/6 h-full bg-gradient-to-l from-black to-transparent z-10"></div>
+          <Marquee className="w-full pt-10 px-20" speed={50}>
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fnode-dark.webp&w=1080&q=75"
+              alt="Nodejs"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fnext-dark.webp&w=640&q=75"
+              alt="Nextjs"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fmongo.webp&w=1080&q=75"
+              alt="MongoDB"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Ftypescript.webp&w=1080&q=75"
+              alt="TypeScript"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fhtml.webp&w=1080&q=75"
+              alt="HTML"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fcss.webp&w=640&q=75"
+              alt="CSS"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fstyled-dark.webp&w=640&q=75"
+              alt="styled components"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fjavascript.webp&w=1080&q=75"
+              alt="javascript"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://miro.medium.com/v2/resize:fit:400/1*OARpkeBkn_Tw3vk8H769OQ.png"
+              alt="docker"
+            />{" "}
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+              alt="psql"
+            />{" "}
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Fgit.webp&w=1080&q=75"
+              alt="git"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Freact.webp&w=640&q=75"
+              alt="react"
+            />
+            <img
+              className="mx-5 h-[100px] w-[100px]"
+              src="https://www.imanshu.dev/_next/image?url=%2Fimages%2Fskills%2Ftailwind.webp&w=1080&q=75"
+              alt="Tailwind"
+            />
+          </Marquee>
         </div>
       </div>
     </div>
