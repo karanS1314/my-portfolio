@@ -53,7 +53,9 @@ function Navbar() {
       <div className="container w-full font-NueueMontreal flex items-center justify-between">
         <a onClick={handleLogoClick}>
           <div className="logo">
-            <h2 className="text-2xl font-bold">gurkaran</h2>
+            <h2 className="text-2xl font-bold">
+              <a href="/">gurkaran</a>
+            </h2>
           </div>
         </a>
         <div className="links items-center gap-10 flex">
