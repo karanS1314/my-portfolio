@@ -64,7 +64,7 @@ function About() {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="0.2"
+      data-scroll-speed="0.3"
       className="w-full bg-black rounded-t-3xl py-10 sm:py-20 text-[#E3E3DE]"
     >
       <div className="container w-full ">
