@@ -22,7 +22,7 @@ function Cards() {
             className="w-[25%] h-auto object-contain"
           />{" "}
           <p className="text-lg font-semibold">Software Developer(ASL)</p>{" "}
-          <p className="text-md px-5 lg:px-12 leading-6 lg:leading-7 transition-opacity duration-500 opacity-0 hover:opacity-100">
+          <p className="text-md -mt-3 px-5 lg:px-12 leading-6 lg:leading-7 transition-opacity duration-500 opacity-0 hover:opacity-100">
             {/* Added animation on hover */}
             Led development on the NSL platform and Stringer Chatbot, optimizing
             APIs and enhancing UX with ReactJS, RESTful APIs, and batch
@@ -39,7 +39,7 @@ function Cards() {
             className="w-[25%] h-auto object-contain"
           />
           <p className="text-lg font-semibold">Software Engineer</p>{" "}
-          <p className="text-md px-5 lg:px-12 leading-6 lg:leading-7 transition-opacity duration-500 opacity-0 hover:opacity-100">
+          <p className="text-md px-5 -mt-3 lg:px-12 leading-6 lg:leading-7 transition-opacity duration-500 opacity-0 hover:opacity-100">
             {/* Added animation on hover */}
             Developed responsive UI for Warehouse Management System using React
             Native, implemented route optimization, and reduced bugs through
