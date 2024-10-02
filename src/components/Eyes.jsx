@@ -26,7 +26,7 @@ function Eyes() {
         data-scroll
         data-scroll-section
         data-scroll-speed="-0.2"
-        className="w-full relative h-[300px] sm:h-[600px] bg-cover bg-center bg-[#E3E3DE]"
+        className="w-full relative h-[300px] sm:h-[600px] bg-cover bg-center bg-[#E3E3DE] items-center"
       >
         <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           <div className="w-[24vw] md:w-[15vw] h-[24vw] md:h-[15vw] flex items-center justify-center bg-zinc-100 rounded-full">

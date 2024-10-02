@@ -5,7 +5,7 @@ import { SiCodeforces } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
-    <div className="w-full h-fit">
+    <div className="w-full h-fit text-[#E3E3DE]">
       <div className="container md:flex-row flex flex-col py-10">
         <div className="md:w-1/2 w-full flex flex-col gap-10 justify-between">
           <h1 className="font-FoundersGroteskCondensed uppercase text-6xl">

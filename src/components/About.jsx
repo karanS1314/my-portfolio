@@ -65,9 +65,9 @@ function About() {
       data-scroll
       data-scroll-section
       data-scroll-speed="0.2"
-      className="w-full bg-black rounded-t-3xl py-10 sm:py-20"
+      className="w-full bg-black rounded-t-3xl py-10 sm:py-20 text-[#E3E3DE]"
     >
-      <div className="container w-full">
+      <div className="container w-full ">
         <h1 className="sm:text-3xl text-xl sm:leading-normal font-medium mb-10 border-b-[1px] border-zinc-700 pb-10">
           <div className="rounded-full flex flex-row items-center gap-2 justify-center mt-4 w-fit bg-[#E3E3DE] text-black px-10 py-3 text-sm font-semibold tracking-wider uppercase">
             <div className="w-2.5 h-2.5 bg-green-500 rounded-full mr-2"></div>{" "}
@@ -75,10 +75,10 @@ function About() {
           </div>
         </h1>
 
-        <div className="md:flex justify-center gap-10 text-[#E3E3DE]">
+        <div className="md:flex justify-center gap-10">
           <div className="about-text h-fit">
             <h1 className="text-4xl mb-4">About me:</h1>
-            <p className="text-base sm:text-xl text-zinc-200 tracking-wide">
+            <p className="text-base sm:text-xl tracking-wide">
               I specialize in developing modern, responsive web applications
               using technologies like React.js, Next.js, TypeScript, and Node.js
               🚀. With a strong foundation in both front-end and back-end
@@ -92,13 +92,13 @@ function About() {
             </p>
             <br />
             <br />
-            <p className="text-base sm:text-xl text-zinc-200 tracking-wide">
+            <p className="text-base sm:text-xl  tracking-wide">
               In my free time, I enjoy playing games 🎮, sketching 🎨 and
               exploring new places 🏍️.
             </p>
             <br />
             <br />
-            <div className="flex items-center space-x-4 text-base sm:text-xl text-zinc-200 tracking-wide">
+            <div className="flex items-center space-x-4 text-base sm:text-xltracking-wide">
               <span>Social Presence:</span>
               <a
                 href="https://www.linkedin.com/in/gurkaran-singh-xx"
