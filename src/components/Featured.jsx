@@ -35,7 +35,7 @@ function Featured() {
               <span className="w-2 h-2 bg-zinc-50 rounded-full"></span> BIDORA -
               Online Auction App
             </h1>
-            <h1 className="hidden md:flex absolute text-purple-500 overflow-hidden left-1/2 sm:left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-10 text-8xl font-NueueMontreal leading-none tracking-tighter">
+            <h1 className="hidden md:flex absolute text-purple-500 overflow-hidden left-1/2 sm:left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-10 text-8xl font-NueueMontreal leading-none tracking-tighter font-semibold">
               {"BIDORA".split("").map((item, index) => (
                 <motion.span
                   initial={{ y: "100%" }}
@@ -67,7 +67,7 @@ function Featured() {
               <span className="w-2 h-2 bg-zinc-50 rounded-full"></span> EDLAB -
               E-Learning Platform
             </h1>
-            <h1 className="hidden md:flex absolute  overflow-hidden text-blue-500 right-1/2 sm:right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-10 text-8xl font-NueueMontreal leading-none tracking-tighter">
+            <h1 className="hidden md:flex absolute  overflow-hidden font-semibold text-blue-500 right-1/2 sm:right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-10 text-8xl font-NueueMontreal leading-none tracking-tighter">
               {"EDLAB".split("").map((item, index) => (
                 <motion.span
                   initial={{ y: "100%" }}
