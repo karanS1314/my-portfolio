@@ -45,9 +45,9 @@ function Cards() {
           </p>{" "}
           <p className="text-md px-5 -mt-4 sm:mt-0 lg:px-12 leading-6 lg:leading-7 transition-opacity duration-500 opacity-0 hover:opacity-100">
             {/* Added animation on hover */}
-            Developed responsive UI for Warehouse Management System using React
-            Native, implemented route optimization, and reduced bugs through
-            thorough code reviews.
+            Developed responsive UI for WMS using React Native, implemented
+            delivery route optimization, and reduced bugs through thorough code
+            reviews.
           </p>
           <button className="absolute left-5 bottom-5 px-5 py-2 rounded-full border text-xs sm:text-base font-NueueMontreal border-zinc-200">
             2023
